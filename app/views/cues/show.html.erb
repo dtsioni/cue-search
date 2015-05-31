@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @cue.title %>
+</p>
+
+<p>
+  <strong>Artist name:</strong>
+  <%= @cue.artist_name %>
+</p>
+
+<p>
+  <strong>Album name:</strong>
+  <%= @cue.album_name %>
+</p>
+
+<%= link_to 'Edit', edit_cue_path(@cue) %> |
+<%= link_to 'Back', cues_path %>
