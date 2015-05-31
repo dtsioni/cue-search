@@ -4,4 +4,5 @@ class Cue < ActiveRecord::Base
   validates :album_name, presence: true
   belongs_to :genre
   belongs_to :category
+  has_many :tags
 end
